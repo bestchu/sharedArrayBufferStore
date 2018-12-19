@@ -1,0 +1,35 @@
+{
+  "name": "thread_shared_buffer_store",
+  "version": "1.0.0",
+  "description": "use sharedArrayBuffer to store data",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bestchu/sharedArrayBufferStore.git"
+  },
+  "keywords": [
+    "sharedArrayBuffer"
+  ],
+  "author": "welefen,bestchu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bestchu/sharedArrayBufferStore/issues"
+  },
+  "homepage": "https://github.com/bestchu/sharedArrayBufferStore#readme",
+  "devDependencies": {
+    "ava": "^0.25.0",
+    "eslint": "^5.2.0",
+    "eslint-config-think": "^1.0.2",
+    "eslint-plugin-import": "^2.13.0",
+    "nyc": "^12.0.2",
+    "think-helper": "^1.1.1",
+    "uglify-es": "^3.3.9"
+  }
+}
